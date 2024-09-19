@@ -1,0 +1,83 @@
+/* styleHome.css */
+
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor general */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #000; /* Negro */
+    color: #FFD700; /* Amarillo dorado */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la navegación */
+nav {
+    background-color: #FFD700; /* Amarillo dorado */
+    color: #000; /* Negro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000; /* Negro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px 0;
+    background-color: #f4f4f4; /* Gris claro para contraste */
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #000; /* Negro */
+    color: #FFD700; /* Amarillo dorado */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}

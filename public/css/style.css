@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #f5a623; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #b0b0b0; 
+}
+
+a {
+    color: #50e3c2; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin: 0 auto;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 300ms, transform 300ms;
+}
+
+a.button:hover {
+    background-color: #ff8a74; 
+    transform: scale(1.05);
+}
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #1e1e1e; /* Fondo oscuro para la barra de navegación */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros contenidos */
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: #e0e0e0; /* Color claro para los enlaces en la barra de navegación */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste del contenido principal para evitar que quede oculto detrás de la barra de navegación */
+body {
+    padding-top: 60px; /* Ajusta este valor según la altura de tu barra de navegación */
+}
+
